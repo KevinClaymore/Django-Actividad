@@ -1,2 +1,6 @@
 # Django-Actividad
 Kevin Daniel Chaparro Molina 1152411
+Este proyecto es una aplicación de biblioteca hecha en Django. Permite registrar autores, libros y reseñas, además de aplicar validaciones básicas y manejar la información desde el panel de administración. Para ejecutarlo localmente solo se necesita instalar las dependencias, aplicar las migraciones y correr el servidor. También se incluye un usuario de prueba para acceder al panel admin y un archivo que permite poblar la base de datos con algunos datos iniciales.
+Para iniciar el proyecto primero se clona el repositorio, luego se instala Django y las demás librerías necesarias. Después se ejecutan las migraciones con python manage.py migrate y se levanta el servidor con python manage.py runserver. Si se desea cargar los datos de ejemplo, se abre la shell de Django y se ejecuta el archivo poblar_datos.py.
+El acceso al panel administrativo se puede hacer usando el usuario "claymore", Email: claymore@gmail.com, Contraseña: 1234
+Con esto ya es posible revisar, crear y modificar autores, libros y reseñas, así como probar el funcionamiento del CRUD y las relaciones entre los modelos. El proyecto está configurado para funcionar completamente en local sin pasos adicionales.
