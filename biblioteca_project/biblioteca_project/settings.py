@@ -40,6 +40,7 @@ INSTALLED_APPS = [
      'biblioteca',
      'rest_framework',
      'django_filters',
+     'students', 
 ]
 
 MIDDLEWARE = [
