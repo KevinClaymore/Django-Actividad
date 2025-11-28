@@ -8,7 +8,10 @@ router.register("autores", AutorViewSet, basename="autores")
 router.register("libros", LibroViewSet, basename="libros")
 router.register("resenas", ResenaViewSet, basename="resenas")
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path("api/", include("students.urls")),
+
 ]
